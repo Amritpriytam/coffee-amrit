@@ -1,0 +1,93 @@
+/* 1.0. Homepage Posts - limit title to max 3 lines */
+.ue_post_blocks_title {
+	color: #000;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+}
+
+
+
+
+
+/* 2.0. Blog Page - limit title to max 2 lines */
+.uc_post_list_title {
+	color: #000;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+
+
+
+
+/* 3.1. Single Post paragraph text formatting & optional make paragraph text size bigger */
+.elementor-widget-theme-post-content p,
+.single-post .entry-content p {
+	margin-bottom: 24px;
+	font-size: 100%;
+}
+
+/* 3.2. Single Post title text formatting */
+.elementor-widget-theme-post-content h2,
+.elementor-widget-theme-post-content h3,
+.single-post .entry-content h2,
+.single-post .entry-content h3 {
+	margin-top: 48px;
+	margin-bottom: 18px;
+}
+
+
+
+
+
+/* 3.3. Single Post top spacing */
+.ast-separate-container .ast-article-single {
+	padding-top: 0;
+}
+
+
+
+
+
+/* 3.4. Single Post Hide "Previous / Next" Post Section */
+.single-post .post-navigation {
+	display: none;
+}
+
+/* 3.5. Single Post fix spacing above comments */
+.single-post .comments-area,
+.single-post .comment-respond {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+
+
+
+/* 3.6. Single Post change comments button color */
+.comment-form input#submit {
+	color: #fff;
+}
+
+
+
+
+
+/* 3.7. Single Post change the color of the Date (optional) */
+.single-post .entry-meta * {
+	color: #000;
+}
+
+
+
+
+
+/* 4.0. Contact Page change button text color */
+.wpforms-container button {
+	color: #fff;
+}
